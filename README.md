@@ -25,17 +25,17 @@ Course Title: Object Oriented Programming using C++
 ### Chapter 1 – Fundamental Concepts of Object-Oriented Programming
 Programs based on:
 
--Introduction to Object-Oriented Programming
--Programming Basics
--Arrays
--Strings
--Functions and Methods
--Palindrome Program
--Largest number of an Array Program
--Parameter Passing Techniques
--Pass by Value
--Pass by Reference
--Pass by Pointer
+1.Introduction to Object-Oriented Programming
+2.Programming Basics
+3.Arrays
+4.Strings
+5.Functions and Methods
+6.Palindrome Program
+7.Largest number of an Array Program
+8.Parameter Passing Techniques
+9.Pass by Value
+10.Pass by Reference
+11.Pass by Pointer
 
 ### Chapter 2 – Classes and Objects
 Programs based on:
