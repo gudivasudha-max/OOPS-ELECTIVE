@@ -22,7 +22,7 @@ Collection of my OOPS C++ programs chapter-wise executed during regular OOPS cla
 Course Code: 26EECE421
 Course Title: Object Oriented Programming using C++
 
-Chapter 1 – Fundamental Concepts of Object-Oriented Programming
+### Chapter 1 – Fundamental Concepts of Object-Oriented Programming
 Programs based on:
 
 Introduction to Object-Oriented Programming
@@ -36,7 +36,8 @@ Parameter Passing Techniques
 Pass by Value
 Pass by Reference
 Pass by Pointer
-Chapter 2 – Classes and Objects
+
+### Chapter 2 – Classes and Objects
 Programs based on:
 
 Introduction to Classes and Objects
@@ -59,7 +60,8 @@ Inline Functions
 Friend Class
 Friend Functions
 Passing Objects as Arguments
-Chapter 3 – Inheritance
+
+### Chapter 3 – Inheritance
 Programs completed up to:
 
 Introduction to Inheritance
