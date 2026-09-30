@@ -25,7 +25,7 @@ Course Title: Object Oriented Programming using C++
 ### Chapter 1 – Fundamental Concepts of Object-Oriented Programming
 Programs based on:
 
-Introduction to Object-Oriented Programming
+|Introduction to Object-Oriented Programming|
 Programming Basics
 Arrays
 Strings
