@@ -1,73 +1,260 @@
-# OOPS-PROGRAMS
+# OOPS Elective – C++ Programs
 
-## Object-Oriented Programming in C++
+This repository contains the C++ programs developed as part of my **Object-Oriented Programming (OOPS) Elective** coursework.
 
-### 🎯 Objective
+The programs progress from basic C++ programming concepts to classes, constructors, inheritance, polymorphism, operator overloading, and exception handling. Each `Class_X` folder contains programs covered or practised during the corresponding class/session.
 
-To strengthen my understanding of object-oriented programming through hands-on C++ coding and implementation.
+---
 
-### 🎓 Student Details
+## 👨‍🎓 Student Details
 
-| Field | Details |
-|---|---|
-| Name | vasudha s gudi |
-| Roll No. | 308 |
-| Division | C |
-| USN | 01FE23BEC096 |
-| Semester | VII |
+| **Field**    | **Details**         |
+| ------------ | ------------------- |
+| **Name**     | Vasudha Sharad Gudi  |
+| **Roll No.** | 308                 |
+| **Division** | C                   |
+| **SRN**      | 01FE23BEC096        |
+| **Semester** | VII                 |
 
-OOPS_using_C++
-Collection of my OOPS C++ programs chapter-wise executed during regular OOPS classes in KLE Technological University, Hubli-Dharwad
+---
 
-Course Code: 26EECE421
-Course Title: Object Oriented Programming using C++
+## 📁 Repository Structure
 
-### Chapter 1 – Fundamental Concepts of Object-Oriented Programming
-Programs based on:
+```
+OOPS_Elective_Programs/
+│
+├── Programs/
+│   ├── Class_1/
+│   ├── Class_2/
+│   ├── Class_3/
+│   ├── Class_4/
+│   ├── Class_5/
+│   ├── Class_6/
+│   ├── Class_7/
+│   ├── Class_8/
+│   ├── Class_9/
+│   ├── Class_10/
+│   ├── Class_11/
+│   └── Class_12/
+│
+└── README.md
 
-1. Introduction to Object-Oriented Programming
-2. Programming Basics
-3. Arrays
-4. Strings
-5. Functions and Methods
-6. Palindrome Program
-7. Largest number of an Array Program
-8. Parameter Passing Techniques
-9. Pass by Value
-10. Pass by Reference
-11. Pass by Pointer
+```
 
-### Chapter 2 – Classes and Objects
-Programs based on:
+Each class folder contains the source files for the programs associated with that class. Some files preserve intermediate attempts or examples with errors for learning and comparison.
 
-1. Introduction to Classes and Objects
-2. Scope Resolution Operator
-3. Data Members
-4. Member Functions
-5. Encapsulation and Data Hiding
-6. Visibility Modifiers
-7. Public
-8. Private
-9. Protected
-10. Constructors
-11. Default
-12. Parameterized
-13. Copy
-14. Destructors
-15. Static Data Members
-16. Static Member functions
-17. Inline Functions
-18. Friend Class
-19. Friend Functions
-20. Passing Objects as Arguments
+---
 
-### Chapter 3 – Inheritance
-Programs completed up to:
+## 📚 Class-wise Programs
 
-1. Introduction to Inheritance
-2. Types of Inheritance
-3. Single Inheritance
-4. Multi-level Inheritance
-5. Defining Derived Classes
-6. Access Specifiers
-7. Base Class and Derived Class
+### Class 1 – C++ Fundamentals
+
+Programs covering basic C++ syntax, input/output, data types, strings, and parameter passing.
+
+| **Program**   | **Concept**                                                  |
+| ------------- | ------------------------------------------------------------ |
+| `prog_1.cpp`  | Basic output using `cout`                                    |
+| `prog_2.cpp`  | User input and addition of two numbers                       |
+| `prog_3.cpp`  | Basic data types and variable declaration                    |
+| `prog_4.cpp`  | Area of a rectangle using user input                         |
+| `prog_5.cpp`  | Finding the largest number in a list                         |
+| `prog_6.cpp`  | Finding string length using C-style and C++-style approaches |
+| `prog_7.cpp`  | C-style string palindrome checking                           |
+| `prog_8.cpp`  | C++-style palindrome program – incomplete practice program   |
+| `prog_9.cpp`  | Parameter passing – pass by value                            |
+| `prog_10.cpp` | Parameter passing – pass by reference                        |
+| `prog_11.cpp` | Parameter passing – pass by pointer                          |
+
+---
+
+### Class 2 – Classes and Objects
+
+Introduction to classes, objects, member functions, and defining functions outside a class.
+
+| **Program**  | **Concept**                                                                   |
+| ------------ | ----------------------------------------------------------------------------- |
+| `prog_1.cpp` | Creating a class and object; accessing private data through member functions  |
+| `prog_2.cpp` | Student class with data members and member functions                          |
+| `prog_3.cpp` | Defining a class member function outside the class                            |
+| `prog_4.cpp` | Rectangle class with member functions for setting values and calculating area |
+| `prog_5.cpp` | Rectangle program with a function returning the calculated area               |
+
+---
+
+### Class 3 – Member Functions and Constructors
+
+Programs covering class-based data handling, object interaction, and constructors.
+
+| **Program**  | **Concept**                                        |
+| ------------ | -------------------------------------------------- |
+| `prog_1.cpp` | `Time` class and addition of two time objects      |
+| `prog_2.cpp` | Addition of two complex numbers using objects      |
+| `prog_3.cpp` | Default constructor for initializing employee data |
+| `prog_4.cpp` | Default and parameterized constructors             |
+| `prog_5.cpp` | Parameterized constructor using a `Distance` class |
+| `prog_6.cpp` | Default, parameterized, and copy constructors      |
+
+---
+
+### Class 4 – Destructors and Static Data Members
+
+Programs demonstrating object destruction and static members shared among objects.
+
+| **Program**  | **Concept**                                                                  |
+| ------------ | ---------------------------------------------------------------------------- |
+| `prog_1.cpp` | Destructor with a class having default, parameterized, and copy constructors |
+| `prog_2.cpp` | Static data member shared by multiple objects                                |
+| `prog_3.cpp` | Static counter with a separate employee ID for each object                   |
+
+> **Note:** Compare `prog_2.cpp` and `prog_3.cpp` to understand how static data members are shared by objects of a class.
+
+---
+
+### Class 5 – Static Member Functions and Friend Functions
+
+Programs covering static member functions and access to private class members through friend functions.
+
+| **Program**  | **Concept**                                                    |
+| ------------ | -------------------------------------------------------------- |
+| `prog_1.cpp` | Static member function and static data member                  |
+| `prog_2.cpp` | Friend function accessing private members of a class           |
+| `prog_3.cpp` | Practice program for friend function parameters                |
+| `prog_4.cpp` | Common friend function accessing private data from two classes |
+
+---
+
+### Class 6 – Inheritance
+
+Introduction to inheritance and multi-level inheritance.
+
+| **Program**  | **Concept**                                                         |
+| ------------ | ------------------------------------------------------------------- |
+| `prog_1.cpp` | Single-level inheritance using `Animal` and `Dog`                   |
+| `prog_2.cpp` | Multi-level inheritance using `Person`, `Student`, and `IT_Student` |
+| `prog_3.cpp` | Multi-level inheritance and experimentation with access modes       |
+
+---
+
+### Class 7 – Multi-level Inheritance and Access Control
+
+Further practice with multi-level inheritance and the `protected` access specifier.
+
+| **Program**  | **Concept**                                                      |
+| ------------ | ---------------------------------------------------------------- |
+| `prog_1.cpp` | Multi-level inheritance using `Vehicle`, `Car`, and `Sports Car` |
+| `prog_2.cpp` | Multi-level inheritance using `protected` members                |
+| `prog_3.cpp` | Reserved for further practice                                    |
+
+---
+
+### Class 8 – Constructor Initializer Lists and Multiple Inheritance
+
+Programs practising constructor initializer lists and building on inheritance examples. This folder also contains intermediate/error examples that are useful for comparison with later versions.
+
+| **Program**  | **Concept**                                                                                                                                       |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `prog_1.cpp` | Single-level inheritance using constructor initializer lists to initialize base-class and derived-class members                                   |
+| `prog_2.cpp` | Multi-level inheritance with `Person`, `Student`, and `IT_Student`; constructor-initializer-list practice (incomplete/error in current version)   |
+| `prog_3.cpp` | Multiple inheritance using `Student`, `Test`, and `Result`; demonstrates the default-constructor issue when objects are created without arguments |
+| `prog_4.cpp` | `Student`, `Test`, and `Result` example using parameterized constructors and an initializer list                                                  |
+| `prog_5.cpp` | Student result system using multiple inheritance; inputs three subject marks and calculates total and percentage                                  |
+| `prog_6.cpp` | Student result system using multiple inheritance; inputs five subject marks and displays total and percentage                                     |
+
+---
+
+### Class 9 – Multiple Inheritance
+
+Programs demonstrating a class inheriting from more than one base class, including a student-result example.
+
+| **Program**  | **Concept**                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `prog_1.cpp` | Multiple inheritance using `Liquid`, `Fuel`, and derived class `Petrol`                                            |
+| `prog_2.cpp` | `Student`, `Test`, and `Result` multiple-inheritance example; an intermediate constructor/display practice version |
+
+> **Note:** The supplied Class 9 folder contains `prog_1.cpp` and `prog_2.cpp`. Class 8 also contains related versions of the student-result example.
+
+---
+
+### Class 10 – Virtual Base Classes and Function Overriding
+
+Programs covering the diamond inheritance problem, virtual base classes, and runtime polymorphism through virtual functions.
+
+| **Program**  | **Concept**                                                                                                                 |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| `prog_1.cpp` | Diamond-style multiple inheritance where the member `i` becomes ambiguous because `D` inherits `A` through both `B` and `C` |
+| `prog_2.cpp` | Resolving the repeated-base ambiguity using a virtual base class                                                            |
+| `prog_3.cpp` | Function overriding with a virtual `show()` function and base-class pointer; demonstrates runtime polymorphism/late binding |
+| `prog_4.cpp` | Further practice with base and derived `show()` functions, virtual dispatch, and direct object calls                        |
+
+---
+
+### Class 11 – Runtime Polymorphism, Abstract Classes, and Operator Overloading
+
+Programs demonstrating virtual functions, abstract classes, and unary/binary operator overloading.
+
+| **Program**  | **Concept**                                                                                                                  |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| `prog_1.cpp` | `Shape` base class and `Circle` derived class; virtual `draw()` demonstrates runtime polymorphism                            |
+| `prog_2.cpp` | One base class with three derived classes (`Circle`, `Square`, and `Triangle`) overriding `draw()`                           |
+| `prog_3.cpp` | Runtime polymorphism using an array of base-class pointers to different derived shape objects                                |
+| `prog_4.cpp` | Abstract `Vehicle` class with a pure virtual function and derived `Car` and `Bike` classes                                   |
+| `prog_5.cpp` | Binary `+` operator overloading to add two complex numbers                                                                   |
+| `prog_6.cpp` | Binary `-` operator overloading to subtract two complex numbers                                                              |
+| `prog_7.cpp` | Prefix and postfix increment operator overloading (`++`) for a `Counter` class                                               |
+| `prog_8.cpp` | Prefix/postfix-style decrement logic practice; review the operator names in the current source, which still use `operator++` |
+
+---
+
+### Class 12 – String Operator Overloading and Exception Handling
+
+Programs introducing operator overloading for strings and exception handling using `try`, `throw`, and `catch`.
+
+| **Program**  | **Concept**                                                                                                       |
+| ------------ | ----------------------------------------------------------------------------------------------------------------- |
+| `prog_1.cpp` | Practice with binary `+` operator overloading for string concatenation; current source contains issues to correct |
+| `prog_2.cpp` | Basic exception handling using `try`, `throw`, and `catch` for a negative integer                                 |
+| `prog_3.cpp` | Throwing and catching an integer when one of two values is zero                                                   |
+| `prog_4.cpp` | Exception handling with different thrown data types (`int` and `double`) and matching catch blocks                |
+| `prog_5.cpp` | Handling division by zero by throwing and catching a message                                                      |
+| `prog_6.cpp` | Modified division-by-zero example exploring the order of division and exception throwing                          |
+
+---
+
+## 🧠 Concepts Covered
+
+The repository includes the following C++ and OOPS concepts:
+
+- Basic C++ syntax, variables, data types, and input/output with `cin` and `cout`
+- Functions and parameter passing:
+  - Pass by value
+  - Pass by reference
+  - Pass by pointer
+- C-style and C++-style strings
+- Classes, objects, data members, and member functions
+- Member functions defined outside a class
+- Constructors:
+  - Default constructor
+  - Parameterized constructor
+  - Copy constructor
+  - Constructor initializer lists
+- Destructors
+- Static data members and static member functions
+- Friend functions, including functions that access members of multiple classes
+- Inheritance:
+  - Single-level inheritance
+  - Multi-level inheritance
+  - Multiple inheritance
+  - Virtual base classes and the diamond problem
+- Access specifiers: `private`, `public`, and `protected`
+- Function overriding
+- Virtual functions, late binding, and runtime polymorphism
+- Abstract classes and pure virtual functions
+- Operator overloading:
+  - Binary `+` and `-`
+  - Prefix and postfix increment/decrement practice
+- Exception handling:
+  - `try`
+  - `throw`
+  - `catch`
+  - Handling different exception types
+  - Division-by-zero examples
